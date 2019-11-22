@@ -71,7 +71,6 @@ var updateClock = function() {
     messageText = "Good afternoon!";
   }
 
-  console.log(messageText); 
   timeEventJS.innerText = messageText;
   
   showCurrentTime();
